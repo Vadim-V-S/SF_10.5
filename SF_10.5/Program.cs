@@ -23,8 +23,8 @@ namespace SF_10._5
         {
             while (true)
             {
-                ICalculetor calculetor = new Calculator(InputNumbers(1), InputNumbers(2));
-                calculetor.Calcukate();
+                ICalculator calculator = new Calculator(InputNumbers(1), InputNumbers(2));
+                calculator.Calculate();
             }
         }
 

@@ -4,12 +4,12 @@ using System.Text;
 
 namespace SF_10._5
 {
-    public interface ICalculetor
+    public interface ICalculator
     {
-        void Calcukate();
+        void Calculate();
     }
 
-    class Calculator : ICalculetor
+    class Calculator : ICalculator
     {
         public double Num1;
         public double Num2;
@@ -25,7 +25,7 @@ namespace SF_10._5
             Num2 = num2;
         }
 
-        public void Calcukate()
+        public void Calculate()
         {
             logger.Event($"Сумма = {Num1 + Num2}\n");
         }
